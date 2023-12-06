@@ -11,7 +11,7 @@ The aim of this code is to create a script for a short film that has 5 acts- an 
 4. install all the dependencies `pip install -r requirements.txt`
 5. run the application with streamlit: `streamlit run app.py`
 
-Note: You will have to update your OPEN AI API key in the apikey.py file before you run this code in your conda environment.
+Note: You will have to update your `OPENAI API KEY` in the apikey.py file before you run this code in your conda environment.
 
 
 ## Explanaiton of what's happening
