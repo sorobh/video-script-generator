@@ -15,4 +15,4 @@ Note: You will have to update your `OPENAI API KEY` in the apikey.py file before
 
 
 ## Explanaiton of what's happening
-Currently the project is still work in progress. The GPT was running out of memory and not completing the scripts. To solve for this, I'm using multiple API calls instead of trying to generate the entire script in a single API call. This is resulting in some convulated behavior which needs to be fixed.
+The project is still work in progress. In the earlier iterations of the code, the API call amde to the GPT was running out of memory and as a result scripts weren't compeletely generated. To solve for this, I'm trying to use multiple API calls one afetr another instead of generating the entire script in a single API call. This is resulting in some convulated behavior with script getting repated multiple times. This will be fixed in subsequent iterations.
