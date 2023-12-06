@@ -1,4 +1,4 @@
-# script-generator
+# video-script-generator
  
 ## Purpose
 The aim of this code is to create a script for a short film that has 5 acts- an interesting hook for opening, a challenge, a climax, a resolution, and an ending. The output should also display the context that was gathered from Wikipedia while creating this script
@@ -14,5 +14,5 @@ The aim of this code is to create a script for a short film that has 5 acts- an 
 Note: You will have to update your `OPENAI API KEY` in the apikey.py file before you run this code in your conda environment.
 
 
-## Explanaiton of what's happening
+## Current Status
 The project is still work in progress. In the earlier iterations of the code, the API call amde to the GPT was running out of memory and as a result scripts weren't compeletely generated. To solve for this, I'm trying to use multiple API calls one afetr another instead of generating the entire script in a single API call. This is resulting in some convulated behavior with script getting repated multiple times. This will be fixed in subsequent iterations.
